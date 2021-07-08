@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body {
+  font-family: 'Otomanopee One', sans-serif;
+  background: linear-gradient(90deg, rgb(204, 18, 211) 0%, rgb(110, 33, 141) 43%, rgb(149, 30, 228) 100%);
+}
+
+.task-container{
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#form-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 0rem;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+#submit {
+  background-color: #db3b9e;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+}
+
+.flex-wrapper{
+  display: flex;
+}
+
+
+.task-wrapper {
+  cursor: pointer;
+  border-bottom: 1px solid #e9e9e9;
+  color: #686868;
+  margin: 5px;
+  padding: 20px;
+}
+
+
+.task-wrapper:hover{
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-left: 2px;
+  margin-right: 2px;
+}
